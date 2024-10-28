@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 const Input = () => {
   return (
-    <div>Input</div>
+    <div>
+        <input type="number" min={2} max={20} />
+    </div>
   )
 }
 
